@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/0ffbada778.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="px-5 lg:px-60">
         <section>
             <div class="p-10 flex flex-col-reverse md:flex-row justify-around ">
                 <div>
@@ -19,7 +19,7 @@
                         Tea House</h1>
                         <p class="text-2xl mb-6">Tea and Botanical Solutions Supplier Give Optimum <br>
                             Satisfaction To Your Taste Buds.</p>
-                        <button  class="bg-orange-500 rounded p-3 text-white">Explor More</button>
+                        <button  class="bg-gradient-to-r from-orange-400 to-rose-400 rounded p-3 text-white">Explor More</button>
                  </div>
                  <div>
                     <div><img src="images/banner.png" alt=""></div>
@@ -54,10 +54,10 @@
         <main>
             <div class=" px-5 grid grid-cols-1 gap-5 md:grid-cols-2 mt-20">
                 <div class="grid grid-cols-2 gap-3">
-                    <p class="bg-slate-300 col-span-1 h-24"></p>
-                    <p class=" bg-orange-500 row-span-5 "><img class="flex justify-center align-middle" src="images/fresh-1.png" alt=""></p>
-                    <p class="bg-slate-500 row-span-5 "><img class="flex justify-center align-middle" src="images/fresh-2.png" alt=""></p>
-                    <p class=" bg-orange-300 col-span-1 h-24 "></p>
+                    <p class="bg-gradient-to-r from-rose-300 to-rose-500 rounded-md col-span-1 h-24"></p>
+                    <p class="bg-gradient-to-r from-rose-300 to-rose-500 rounded-md row-span-5 "><img class="flex justify-center align-middle" src="images/fresh-1.png" alt=""></p>
+                    <p class="bg-gradient-to-r from-orange-400 to-rose-400 rounded-md row-span-5 "><img class="flex justify-center align-middle" src="images/fresh-2.png" alt=""></p>
+                    <p class="bg-gradient-to-r from-slate-500 to-yellow-100 rounded-md col-span-1 h-24 "></p>
                 </div>
                 <div>
                     <h1 class="font-bold text-4xl text-center">Great Tea, Freshly <br> Presented</h1>
@@ -70,12 +70,27 @@
                     <p class="text-lg text-center ">Premium Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
+            <div class="bg-cover mt-10 gap-4 grid grid-cols-1 md:grid-cols-2" style="background-image: url(images/Hyper.jpeg); background-repeat: no-repeat ;">
+             <div class=" py-20 pl-5 "> 
+                <h1 class="font-bold text-4xl pb-2">Meet Our Super Clients</h1>
+                <p class="text-lg pb-2" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="font-bold bg-white text-orange-600 rounded-md p-3">Show All </button>
+            </div>
+             <div class=" py-20 px-5" >
+                <div class="bg-white">
+                    <img class="relative -top-6 -left-6" src="images/client.png">
+                    <p class="pb-3 pl-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h3 class="font-bold pb-2 pl-5">Ilham Yuda</h3>
+                    <p class="pl-5">Businessman</p>
+                </div>
+             </div>
+           </div>
             <div>
                 <div class=" md: my-20">
                     <h1 class=" text-center font-bold text-4xl">News & Events</h1>
                     <p class="text-xl text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
                 </div>
-                <div class=" ms-5 grid grid-cols-1 md:grid-cols-3 gap-4 mx-52">
+                <div class=" ms-5 grid grid-cols-1 md:grid-cols-3 gap-4 ">
                     <div class="box-border border-4 border-indigo-100  p-5">
                         <img src="images/news-1.png" alt="">
                         <p>Feb 05, 2027</p>
@@ -100,5 +115,14 @@
             </div>
         </main>
     </header>
+    <footer class="mt-10 bg-red-300 py-10">
+<div class="flex justify-between  px-10">
+    <div><img src="images/cup.png" alt=""></div>
+    <div class="flex gap-4">
+        <p class="font-bold pt-2">Ready to get strated?</p>
+        <button class="bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 rounded-md p-2 text-white">Get Started</button>
+    </div>
+</div>
+    </footer>
 </body>
 </html>
